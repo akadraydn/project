@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff
+}
+
+#muscleicon{
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+/* Navbar*/
+
+nav{
+    width: 100%;
+    font-family: Montserrat;
+    background-color: black;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+}
+
+#logo-box .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.8rem;
+    
+    
+}
+
+#nav-links{
+    float: right;
+}
+#logo-box{
+    float: left;
+}
+
+#nav-links .nav-item{
+    float: left;
+    margin: 0.5rem;
+}
+
+
+
+#nav-links .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover{
+    color: khaki;
+}
+
+#nav-links .nav-icon{
+    display: none;
+}
+
+@media(max-width: 992px){
+    #logo-box{
+        float: none;
+        text-align: left;
+    }
+    #nav-links{
+        float: none;
+    }
+    #nav-links .nav-link{
+        font-size: 2rem;
+        padding-left: 0;
+    }
+    #nav-links .nav-item{
+        float: none;
+        text-align: left;
+    }
+    #nav-links .nav-icon{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 2.5rem;
+    }
+
+    #nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    
+}
+
+header{
+    color: black;
+    height: 800px;
+    padding-top: calc(106px + 4rem);
+    text-align: center;
+    
+
+}
+
+#hesaplayıcıbaşlık{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-size: 3.5rem;
+}
+#rehberbaşlık{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-size: 3.5rem;
+}
+
+#kaloribaşlık{
+    margin-left: 60px;
+    font-size: 45px;
+}
+
+#suprehberbaşlık{
+    margin-left: 60px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.rehberaltbaşlık{
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+
+
+#hesaplayıcı{
+    height: 1250px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: left;
+    background-color: #fff;
+}
+
+#cinsiyetid{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px; 
+    
+}
+
+#yas{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#boy{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#kilo{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#hareketlilik{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+
+}
+#hedef{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#kaloriihtiyaç{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#makrolar{
+    background-color: #EBECEC;
+    padding: 20px 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+.makro{
+    display: inline;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+#rehber{
+    height: 1250px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: left;
+    background-color: #fff
+}
+
+#rehber{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.rehberaltbaşlık{
+    margin-left: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.paragrafbaşı{
+    text-indent:50px;
+}
+
+
+
+
